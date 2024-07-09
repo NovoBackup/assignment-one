@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.azeret-mono-font {
+  font-family: 'Azeret Mono', monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px;
+}
+
+.resume-btn {
+  background: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 57px;
+  width: 244px;
+}
+
+.hero {
+  width: 1920px;
+  height: 652px;
+  margin: 0 auto;
+  background-image: url('./assets/Hero-bg.png');
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text {
+  font-size: 48px;
+  width: 998px;
+  text-align: center;
+}
+
+.hero-subtext {
+  font-size: 16px;
+}
+
+.group-img {
+  width: 240px;
+  height: 240px;
+}
+
+.contact-me-btn {
+  background: #0d1321;
+  width: 244px;
+  height: 65px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
