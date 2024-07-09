@@ -65,11 +65,11 @@
   font-size: 20px;
   border-radius: 8px;
   cursor: pointer;
+  color: #fff;
 }
 
 .contact-me-btn a {
   text-decoration: none;
-  color: #fff;
 }
 
 .why-dev {
@@ -98,7 +98,7 @@
   margin-top: 40px;
 }
 
-.section {
+.card {
   display: flex;
   background-color: white;
   border-radius: 8px;
@@ -129,9 +129,10 @@ button {
   color: black;
   border: 1px solid black;
   padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  font-weight: bold;
+  color: #0d1321;
 }
 
 .image {
@@ -140,8 +141,165 @@ button {
   justify-content: center;
 }
 
+.video {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.354);
+  margin-top: 48px;
+}
+
 .image img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.inspiration {
+  width: 100%;
+  max-width: 1140px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.inspiration h2 {
+  font-size: 32px;
+}
+
+.inspiration p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+iframe {
+  margin-top: 20px;
+  width: 100%;
+  height: 550px;
+}
+
+.target {
+  width: 100%;
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 40px;
+}
+
+.target h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.target-subtext {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.tech {
+  padding: 40px;
+  width: 364px;
+  border-radius: 16px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+}
+.tech h2 {
+  font-size: 24px;
+}
+
+.tech p {
+  font-size: 16px;
+}
+.tech a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bolder;
+}
+.tech-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.html {
+  background-color: #ff4b1e1b;
+}
+.css {
+  background-color: #004de825;
+}
+.js {
+  background-color: #ffdd0035;
+}
+
+.support {
+  width: 100%;
+  max-width: 1140px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 40px;
+  background-image: url('./assets/handshake.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 313px;
+  border-radius: 20px;
+  color: white;
+}
+
+.support h2 {
+  font-size: 32px;
+}
+
+.support p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d132118;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.feedback-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+  height: 57px;
+  margin-top: 40px;
+}
+
+.feedback-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
 }
